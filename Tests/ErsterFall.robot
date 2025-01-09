@@ -1,8 +1,9 @@
 *** Settings ***
-Library  SeleniumLibrary
+Library    SeleniumLibrary
 
 *** Test Cases ***
-Googletest
-  Open Browser https://www.google.com firefox
-  Close  Browser
+Test Open Browser
+    Open Browser    https://www.google.com    chrome
+    Sleep    5 seconds
+    Close Browser
 
