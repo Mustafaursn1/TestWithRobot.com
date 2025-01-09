@@ -1,84 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1.1 (Python 3.12.8 on darwin)" generated="2025-01-09T17:00:19.316384" rpa="false" schemaversion="5">
-<suite id="s1" name="Tests" source="/Users/mustafa/PycharmProjects/PythonProject/PythonProject/PythonProject/TestWithRobot.com/tests">
-<suite id="s1-s1" name="ErsterFall" source="/Users/mustafa/PycharmProjects/PythonProject/PythonProject/PythonProject/TestWithRobot.com/tests/ErsterFall.robot">
-<test id="s1-s1-t1" name="Test Open Browser" line="5">
+<robot generator="Robot 7.1.1 (Python 3.12.8 on darwin)" generated="2025-01-09T19:35:24.755529" rpa="false" schemaversion="5">
+<suite id="s1" name="ZweiterFall" source="/Users/mustafa/PycharmProjects/PythonProject/PythonProject/PythonProject/TestWithRobot.com/Tests/ZweiterFall.robot">
+<test id="s1-t1" name="suche" line="5">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-01-09T17:00:19.454840" level="INFO">Opening browser 'firefox' to base url 'https://www.google.com'.</msg>
-<arg>https://www.google.com</arg>
-<arg>firefox</arg>
+<msg time="2025-01-09T19:35:24.899152" level="INFO">Opening browser 'ff' to base url 'https://yahoo.com'.</msg>
+<arg>https://yahoo.com</arg>
+<arg>ff</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-01-09T17:00:19.454677" elapsed="3.774990"/>
+<status status="PASS" start="2025-01-09T19:35:24.898989" elapsed="3.279156"/>
 </kw>
+<kw name="Maximize Browser">
+<msg time="2025-01-09T19:35:28.180009" level="FAIL">No keyword with name 'Maximize Browser' found.</msg>
+<arg>Window</arg>
+<status status="FAIL" start="2025-01-09T19:35:28.179955" elapsed="0.000106">No keyword with name 'Maximize Browser' found.</status>
+</kw>
+<status status="FAIL" start="2025-01-09T19:35:24.898286" elapsed="3.282023">No keyword with name 'Maximize Browser' found.</status>
+</test>
+<test id="s1-t2" name="Scroll Element Into View xpath=//button[@name='reject']" line="8">
+<status status="FAIL" start="2025-01-09T19:35:28.180522" elapsed="0.000244">Test cannot be empty.</status>
+</test>
+<test id="s1-t3" name="Wait Until Element Is Visible xpath=//button[contains(text(), 'Alle ablehnen')] timeout=10s" line="10">
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-01-09T17:00:28.232159" level="INFO">Slept 5 seconds.</msg>
-<arg>5 seconds</arg>
+<msg time="2025-01-09T19:35:33.181798" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-01-09T17:00:23.230389" elapsed="5.002254"/>
+<status status="PASS" start="2025-01-09T19:35:28.181164" elapsed="5.001032"/>
+</kw>
+<kw name="Click Element xpath=//button[@name='reject']">
+<msg time="2025-01-09T19:35:33.185504" level="FAIL">No keyword with name 'Click Element xpath=//button[@name='reject']' found. Did you try using keyword 'SeleniumLibrary.Click Element' and forgot to use enough whitespace between keyword and arguments?</msg>
+<status status="FAIL" start="2025-01-09T19:35:33.185372" elapsed="0.000243">No keyword with name 'Click Element xpath=//button[@name='reject']' found. Did you try using keyword 'SeleniumLibrary.Click Element' and forgot to use enough whitespace between keyword and arguments?</status>
+</kw>
+<kw name="Inpsut text">
+<arg>id=ybar-sbq</arg>
+<arg>fussball</arg>
+<status status="NOT RUN" start="2025-01-09T19:35:33.185978" elapsed="0.000054"/>
+</kw>
+<kw name="Page">
+<arg>should contain</arg>
+<arg>Etwa 3.200.000 Suchergebnisse</arg>
+<status status="NOT RUN" start="2025-01-09T19:35:33.187658" elapsed="0.000078"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-01-09T17:00:28.233463" elapsed="0.670456"/>
+<status status="NOT RUN" start="2025-01-09T19:35:33.188151" elapsed="0.000070"/>
 </kw>
-<status status="PASS" start="2025-01-09T17:00:19.453947" elapsed="9.450178"/>
+<status status="FAIL" start="2025-01-09T19:35:28.180888" elapsed="5.007754">No keyword with name 'Click Element xpath=//button[@name='reject']' found. Did you try using keyword 'SeleniumLibrary.Click Element' and forgot to use enough whitespace between keyword and arguments?</status>
 </test>
-<test id="s1-s1-t2" name="Suche" line="10">
-<kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-01-09T17:00:28.904786" level="INFO">Opening browser 'firefox' to base url 'https://www.yaho.com firefox'.</msg>
-<msg time="2025-01-09T17:00:31.010783" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-4.png"&gt;&lt;img src="selenium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2025-01-09T17:00:31.011058" level="FAIL">InvalidArgumentException: Message: Malformed URL: URL constructor: https://www.yaho.com firefox is not a valid URL.
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
-InvalidArgumentError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:384:5
-GeckoDriver.prototype.navigateTo@chrome://remote/content/marionette/driver.sys.mjs:1054:11
-</msg>
-<arg>https://www.yaho.com firefox</arg>
-<doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="FAIL" start="2025-01-09T17:00:28.904613" elapsed="2.109758">InvalidArgumentException: Message: Malformed URL: URL constructor: https://www.yaho.com firefox is not a valid URL.
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
-InvalidArgumentError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:384:5
-GeckoDriver.prototype.navigateTo@chrome://remote/content/marionette/driver.sys.mjs:1054:11
-</status>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<arg>5s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" start="2025-01-09T17:00:31.014711" elapsed="0.000092"/>
-</kw>
-<kw name="Click">
-<arg>Element xpath=//button[@name='agree']</arg>
-<status status="NOT RUN" start="2025-01-09T17:00:31.015009" elapsed="0.000030"/>
-</kw>
-<kw name="Input">
-<arg>text</arg>
-<arg>id=ybar-sbq</arg>
-<arg>fussball</arg>
-<status status="NOT RUN" start="2025-01-09T17:00:31.015156" elapsed="0.000019"/>
-</kw>
-<status status="FAIL" start="2025-01-09T17:00:28.904339" elapsed="2.111032">InvalidArgumentException: Message: Malformed URL: URL constructor: https://www.yaho.com firefox is not a valid URL.
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
-InvalidArgumentError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:384:5
-GeckoDriver.prototype.navigateTo@chrome://remote/content/marionette/driver.sys.mjs:1054:11
-</status>
-</test>
-<status status="FAIL" start="2025-01-09T17:00:19.339724" elapsed="11.676092"/>
-</suite>
-<status status="FAIL" start="2025-01-09T17:00:19.317335" elapsed="11.698857"/>
+<status status="FAIL" start="2025-01-09T19:35:24.756528" elapsed="8.432862"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="1" skip="0">All Tests</stat>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="1" skip="0" id="s1" name="Tests">Tests</stat>
-<stat pass="1" fail="1" skip="0" id="s1-s1" name="ErsterFall">Tests.ErsterFall</stat>
+<stat pass="0" fail="3" skip="0" id="s1" name="ZweiterFall">ZweiterFall</stat>
 </suite>
 </statistics>
 <errors>

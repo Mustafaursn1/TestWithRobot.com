@@ -1,0 +1,20 @@
+1736447195532	geckodriver	INFO	Listening on 127.0.0.1:54037
+1736447195555	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4p/1x9hkv8d6xx_p28hn6sgsv1r0000gn/T/rust_mozprofileGVElu7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1736447195819	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1736447196116	Marionette	INFO	Listening on port 54049
+WebDriver BiDi listening on ws://127.0.0.1:54038
+Read port: 54049
+1736447196422	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:54038/devtools/browser/9e4a7891-6157-4c25-b12f-9ffb05d1fcd6
+2025-01-09 19:26:55.273 firefox[7048:192707] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-09 19:26:55.274 firefox[7048:192707] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3883: TypeError: winData is undefined
+1736447442519	Marionette	INFO	Stopped listening on port 54049
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: ({})
+console.error: ({})

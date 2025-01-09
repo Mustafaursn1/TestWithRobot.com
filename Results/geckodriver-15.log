@@ -1,0 +1,19 @@
+1736446669144	geckodriver	INFO	Listening on 127.0.0.1:51826
+1736446669166	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4p/1x9hkv8d6xx_p28hn6sgsv1r0000gn/T/rust_mozprofilelNmPbE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1736446669426	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1736446669720	Marionette	INFO	Listening on port 51838
+WebDriver BiDi listening on ws://127.0.0.1:51827
+Read port: 51838
+1736446669992	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:51827/devtools/browser/752d396e-0cd6-451e-b193-0738daa0b2dd
+2025-01-09 19:18:01.219 firefox[6805:184743] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-09 19:18:01.219 firefox[6805:184743] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+1736447451006	Marionette	INFO	Stopped listening on port 51838
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+console.error: "Error in worker resource://devtools/client/shared/source-map-loader/worker.js" ": "

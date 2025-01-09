@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d65adaf-28f6-4ece-b9cd-1216d44aaf87" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Tests/ZweiterFall.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/geckodriver-10.log" beforeDir="false" afterPath="$PROJECT_DIR$/Results/geckodriver-10.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/geckodriver-6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Results/geckodriver-6.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/geckodriver-8.log" beforeDir="false" afterPath="$PROJECT_DIR$/Results/geckodriver-8.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Results/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/report.html" afterDir="false" />

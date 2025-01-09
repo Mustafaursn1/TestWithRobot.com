@@ -12,3 +12,9 @@ Read port: 52947
 2025-01-09 17:00:30.261 firefox[5567:135746] +[IMKInputSession subclass]: chose IMKInputSession_Modern
 UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
 DevTools listening on ws://127.0.0.1:52940/devtools/browser/24dd92b9-12f2-4551-a2e1-0fdcbe14b753
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3883: TypeError: winData is undefined
+1736445433585	Marionette	INFO	Stopped listening on port 52947
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: ({})
+console.error: ({})
