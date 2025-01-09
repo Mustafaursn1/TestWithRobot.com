@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.8 on darwin)" generated="2025-01-09T15:38:21.960205" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="/Users/mustafa/PycharmProjects/PythonProject/PythonProject/PythonProject/TestWithRobot.com/tests">
+<suite id="s1-s1" name="ErsterFall" source="/Users/mustafa/PycharmProjects/PythonProject/PythonProject/PythonProject/TestWithRobot.com/tests/ErsterFall.robot">
+<test id="s1-s1-t1" name="Googletest" line="5">
+<kw name="Open Browser https://www.google.com firefox">
+<msg time="2025-01-09T15:38:22.099188" level="FAIL">No keyword with name 'Open Browser https://www.google.com firefox' found.</msg>
+<status status="FAIL" start="2025-01-09T15:38:22.099147" elapsed="0.000085">No keyword with name 'Open Browser https://www.google.com firefox' found.</status>
+</kw>
+<kw name="Close">
+<arg>Browser</arg>
+<status status="NOT RUN" start="2025-01-09T15:38:22.099401" elapsed="0.000022"/>
+</kw>
+<status status="FAIL" start="2025-01-09T15:38:22.096871" elapsed="0.002679">No keyword with name 'Open Browser https://www.google.com firefox' found.</status>
+</test>
+<status status="FAIL" start="2025-01-09T15:38:21.983618" elapsed="0.116186"/>
+</suite>
+<status status="FAIL" start="2025-01-09T15:38:21.961183" elapsed="0.138914"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="ErsterFall">Tests.ErsterFall</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
