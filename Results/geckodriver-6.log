@@ -1,0 +1,19 @@
+1736437873169	geckodriver	INFO	Listening on 127.0.0.1:50549
+1736437873186	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4p/1x9hkv8d6xx_p28hn6sgsv1r0000gn/T/rust_mozprofilehJtrHw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1736437873507	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1736437873995	Marionette	INFO	Listening on port 50561
+WebDriver BiDi listening on ws://127.0.0.1:50550
+Read port: 50561
+1736437874230	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:50550/devtools/browser/79cfce64-4b2f-48f2-a6dd-6de21028c5e2
+2025-01-09 16:51:23.598 firefox[5291:126477] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-09 16:51:23.598 firefox[5291:126477] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.process6//domwalker525, type watchRootNode failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:299:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nmodule.exports@resource://devtools/shared/commands/resource/legacy-listeners/root-node.js:62:31\n", "resource://devtools/shared/protocol/Front.js", 105))

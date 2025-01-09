@@ -1,0 +1,17 @@
+1736435621961	geckodriver	INFO	Listening on 127.0.0.1:49628
+1736435621981	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4p/1x9hkv8d6xx_p28hn6sgsv1r0000gn/T/rust_mozprofileM4QcvA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1736435622255	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1736435622611	Marionette	INFO	Listening on port 49636
+WebDriver BiDi listening on ws://127.0.0.1:49629
+Read port: 49636
+1736435622864	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+2025-01-09 16:13:43.364 firefox[4773:95515] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-09 16:13:43.364 firefox[4773:95515] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+DevTools listening on ws://127.0.0.1:49629/devtools/browser/0f066437-aa60-4774-8bca-e8c5a1a2bb0a
+JavaScript warning: https://iunia-eap.com/zclkvisitor/561d5e45-ce9c-11ef-95d7-12a2daaae37b/85aefdc2-9ed0-48aa-922d-60f9f9fc0f2d?campaignid=562a5694-ce9c-11ef-95d7-12a2daaae37b, line 32: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1736435636626	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1736435641052	Marionette	INFO	Stopped listening on port 49636
